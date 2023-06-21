@@ -2,7 +2,6 @@ import AOS from "aos";
 import "aos/dist/aos.css";
 import { useEffect } from "react";
 import Logo from "../assets/UlsLogo.png";
-// import AssuranceGraphic2 from "../assets/AssuranceGraphic2.png";
 import Quotes from "../assets/qu.png";
 import Image from "next/image";
 

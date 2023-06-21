@@ -26,6 +26,7 @@ const Navigation = () => {
             className="nav-link px-2"
             aria-current="page"
             activeClass="active"
+            aria-label={section}
             to={section}
             spy={true}
             smooth={true}
