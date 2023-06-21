@@ -63,7 +63,8 @@ const Assurance = () => {
             <Image
               src={Logo}
               alt="Upper Level Security Logo"
-              className="assurance-logo d-none d-lg-block "
+              className="assurance-logo d-none d-lg-block"
+              loading="lazy"
             />
             {/* ABSOLUTE MD ONLY IMAGE */}
             <div className="d-none d-lg-block text-center assurance-graphicx">
@@ -71,6 +72,7 @@ const Assurance = () => {
                 src={Quotes}
                 alt="Upper Level Security"
                 style={{ width: "4rem", filter: "invert(100%)" }}
+                loading="lazy"
               />
               <p className="lead text-white">
                 The only way to do great <br /> work is to love what you do.{" "}
