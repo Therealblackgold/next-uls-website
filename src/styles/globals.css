@@ -4,18 +4,21 @@
   font-family: "Gideon Roman";
   src: url("../assets/font/Gideon_Roman/GideonRoman-Regular.ttf");
   font-weight: 400;
+  font-display: swap;
 }
 
 @font-face {
   font-family: "Avenir";
   src: url("../assets/font/Avenir_Regular/AvenirRegular.ttf");
   font-weight: 400;
+  font-display: swap;
 }
 
 @font-face {
   font-family: "Avenir Black";
   src: url("../assets/font/Avenir_Black/AvenirBlack.ttf");
   font-weight: 400;
+  font-display: swap;
 }
 
 :root {
