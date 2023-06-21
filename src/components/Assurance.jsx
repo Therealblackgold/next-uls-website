@@ -70,7 +70,7 @@ const Assurance = () => {
             <div className="d-none d-lg-block text-center assurance-graphicx">
               <Image
                 src={Quotes}
-                alt=""
+                alt="Upper Level Security"
                 style={{ width: "4rem", filter: "invert(100%)" }}
               />
               <p className="lead text-white">

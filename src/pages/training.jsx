@@ -1,11 +1,11 @@
 import AnimatePage from "../components/AnimatePage";
 import Quotations from "../assets/qu.png";
 import Logo from "../assets/UlsLogo.png";
-import TrainingGraphic from "../assets/TrainingGraphic.jpg";
+import TrainingGraphic from "../assets/TrainingGraphic-min.jpg";
 import TrainingGraphicChart from "../assets/TrainingGraphicChart.png";
 import { motion } from "framer-motion";
 import Header from "../components/Header";
-import IMG04 from "../assets/mobile/img-04.jpg";
+import IMG04 from "../assets/img-04-min.jpg";
 import Image from "next/image";
 
 const Training = () => {
@@ -43,7 +43,11 @@ const Training = () => {
             </div>
             {/* QUOTE */}
             <div className="col-12 col-lg quote">
-              <Image src={Quotations} alt="" className="quotations" />
+              <Image
+                src={Quotations}
+                alt="Upper Level Security"
+                className="quotations"
+              />
               <p className="lead text-dark">
                 Avoiding danger is <br /> no safer in the long <br /> run than
                 exposure.
@@ -52,7 +56,11 @@ const Training = () => {
 
             {/* LOGO */}
             <div className="col-md d-none d-lg-block">
-              <Image src={Logo} alt="" style={{ width: "20rem" }} />
+              <Image
+                src={Logo}
+                alt="Upper Level Security"
+                style={{ width: "20rem" }}
+              />
             </div>
           </div>
 
@@ -61,13 +69,17 @@ const Training = () => {
             <div className="col-12 col-md text-center d-none d-md-block">
               <Image
                 src={TrainingGraphicChart}
-                alt=""
+                alt="Upper Level Security"
                 style={{ width: "30rem" }}
               />
 
               {/* QUOTE */}
               <div className="quote mt-5 mb-5 mb-lg-0 text-start d-none d-lg-block">
-                <Image src={Quotations} alt="" className="quotations mb-3" />
+                <Image
+                  src={Quotations}
+                  alt="Upper Level Security"
+                  className="quotations mb-3"
+                />
                 <p className="lead text-dark">
                   Our success depends on <br /> recruiting the right person for{" "}
                   <br /> the job. It is therefore <br /> imperative that each{" "}
@@ -92,13 +104,17 @@ const Training = () => {
               </div>
               <Image
                 src={TrainingGraphic}
-                alt=""
+                alt="Upper Level Security"
                 className="training-graphic-image shadow-lg"
               />
             </div>
 
             <div className="col-md d-md-none">
-              <Image src={IMG04} alt="" style={{ borderRadius: "20px" }} />
+              <Image
+                src={IMG04}
+                alt="Upper Level Security"
+                style={{ borderRadius: "20px" }}
+              />
             </div>
           </div>
         </div>

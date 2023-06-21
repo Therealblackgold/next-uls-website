@@ -1,8 +1,7 @@
 import Image from "next/image";
-import ULS1 from "../assets/gallery/FM2A2207.jpg";
-import ULS2 from "../assets/IntroGraphic.png";
-import ULS3 from "../assets/gallery/FM2A2249.jpg";
-import ULS4 from "../assets/AssuranceGraphic.png";
+import ULS1 from "../assets/gallery/FM2A2207-min.jpg";
+import ULS2 from "../assets/IntroGraphic-min.png";
+import ULS3 from "../assets/gallery/FM2A2249-min.jpg";
 import Link from "next/link";
 
 const Carousel = () => {

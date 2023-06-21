@@ -1,9 +1,9 @@
-import MissionGraphic1 from "../assets/MissionGraphic1.jpg";
+import MissionGraphic1 from "../assets/MissionGraphic1-min.jpg";
 import MissionGraphic2 from "../assets/MissionGraphic2.png";
 import Logo from "../assets/UlsLogo.png";
 import Ellipse from "../assets/Ellipse37.png";
-import GraphicBronze from "../assets/GraphicBronze.png";
-import GraphicCar from "../assets/GraphicCar.png";
+import GraphicBronze from "../assets/GraphicBronze-min.png";
+import GraphicCar from "../assets/GraphicCar-min.png";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import { useEffect } from "react";
@@ -78,7 +78,7 @@ const Mission = () => {
           >
             <Image
               src={MissionGraphic1}
-              alt=""
+              alt="Upper Level Security"
               style={{
                 width: "18rem",
                 height: "30rem",
@@ -86,7 +86,11 @@ const Mission = () => {
               }}
             />
             <div className="mission-graphic-x">
-              <Image src={Ellipse} alt="" className="ellipse" />
+              <Image
+                src={Ellipse}
+                alt="Upper Level Security"
+                className="ellipse"
+              />
             </div>
           </div>
 

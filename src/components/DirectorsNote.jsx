@@ -1,5 +1,5 @@
 import { motion } from "framer-motion";
-import TeamGraphic from "../assets/TeamGraphic.png";
+import TeamGraphic from "../assets/TeamGraphic-min.png";
 import Logo from "../assets/UlsLogo.png";
 import Quotation from "../assets/qu.png";
 import AOS from "aos";

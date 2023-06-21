@@ -11,7 +11,7 @@ const Square = () => {
         exit={{ x: "-200px" }}
         transition={{ delay: 0.25, duration: 0.5, ease: "easeOut" }}
       >
-        <img src={LOGO} alt="" />
+        <img src={LOGO} alt="Upper Level Security" />
         <motion.div
           className="square"
           initial={{ rotate: -90 }}

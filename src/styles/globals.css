@@ -228,7 +228,7 @@ section {
 
 .header {
   min-height: 50vh;
-  background-image: url("./../assets/IntroGraphic.png");
+  background-image: url("./../assets/IntroGraphic-min.png");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -371,7 +371,7 @@ Intro component styles
   position: relative;
   width: 100%;
   min-height: 100vh;
-  background: url("./../assets/IntroGraphic.png");
+  background: url("./../assets/IntroGraphic-min.png");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -468,7 +468,7 @@ Mission component styles
   position: relative;
   width: 100%;
   min-height: 100vh;
-  background: url("./../assets/AssuranceGraphic.png");
+  background: url("./../assets/AssuranceGraphic-min.png");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;

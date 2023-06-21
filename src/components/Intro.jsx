@@ -4,7 +4,7 @@ import "aos/dist/aos.css";
 import { useEffect } from "react";
 import Logo from "../assets/UlsLogo.png";
 // import { Link } from "react-router-dom";
-import IMG08 from "../assets/TrainingGraphic.jpg";
+import IMG08 from "../assets/TrainingGraphic-min.jpg";
 import IMG20 from "../assets/mobile/IMG20.png";
 import Link from "next/link";
 import Image from "next/image";
@@ -63,7 +63,7 @@ const Intro = () => {
             <div className="col-md d-md-none mt-5 text-center">
               <Image
                 src={IMG20}
-                alt=""
+                alt="Upper Level Security"
                 style={{
                   height: "15rem",
                   width: "auto",
@@ -109,7 +109,7 @@ const Intro = () => {
             <div className="col-md d-md-none text-center">
               <Image
                 src={IMG08}
-                alt=""
+                alt="Upper Level Security"
                 style={{
                   height: "15rem",
                   width: "auto",

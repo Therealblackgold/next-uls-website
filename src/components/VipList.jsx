@@ -1,6 +1,6 @@
 import { vipServices1, vipServices2, vipServices3 } from "../data";
-import VipGraphic from "../assets/VipGraphic.png";
-import IMG08 from "../assets/TrainingGraphic.jpg";
+import VipGraphic from "../assets/VipGraphic-min.png";
+import IMG08 from "../assets/TrainingGraphic-min.jpg";
 import { useEffect } from "react";
 import AOS from "aos";
 import Image from "next/image";
@@ -82,7 +82,7 @@ const VipList = () => {
           <div className="col-md text-center d-md-none mt-5" data-aos="zoom-in">
             <Image
               src={IMG08}
-              alt=""
+              alt="Upper Level Security"
               style={{ height: "20rem", width: "auto", borderRadius: "20px" }}
             />
           </div>
@@ -91,7 +91,11 @@ const VipList = () => {
             className="col-md-6 d-none d-lg-block"
             style={{ position: "absolute", bottom: "0", left: "30rem" }}
           >
-            <Image src={VipGraphic} alt="" style={{ width: "80rem" }} />
+            <Image
+              src={VipGraphic}
+              alt="Upper Level Security"
+              style={{ width: "80rem" }}
+            />
           </div>
         </div>
       </div>

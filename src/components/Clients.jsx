@@ -3,7 +3,7 @@ import "aos/dist/aos.css";
 import { useEffect } from "react";
 import Image from "next/image";
 import { testimonials } from "@/data";
-import IMG1 from "../assets/FM2A2285.jpg";
+import IMG1 from "../assets/FM2A2285-min.jpg";
 import Logo from "../assets/UlsLogo.png";
 import { client_logos } from "@/data";
 
@@ -49,7 +49,7 @@ const Clients = () => {
               <Image
                 className="shadow-lg d-none d-lg-block"
                 src={IMG1}
-                alt=""
+                alt="Upper Level Security"
                 style={{
                   height: "350px",
                   width: "60rem",
@@ -144,7 +144,11 @@ const Clients = () => {
             {client_logos &&
               client_logos.map((logo, index) => (
                 <div className="col" key={index}>
-                  <Image src={logo} alt="" style={{ width: "10rem" }} />
+                  <Image
+                    src={logo}
+                    alt="Upper Level Security"
+                    style={{ width: "10rem" }}
+                  />
                 </div>
               ))}
           </div>

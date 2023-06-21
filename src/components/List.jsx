@@ -6,13 +6,12 @@ import {
   services5,
   services6,
 } from "../data";
-import Quotes from "../assets/qu.png";
 import Logo from "../assets/UlsLogo.png";
 import AOS from "aos";
 import { useEffect } from "react";
 import Image from "next/image";
 import { motion } from "framer-motion";
-import IMG1 from "../assets/gallery/team05.jpg";
+import IMG1 from "../assets/gallery/team05-min.jpg";
 
 const List = () => {
   useEffect(() => {
@@ -124,7 +123,7 @@ const List = () => {
           <div className="col-md text-center d-md-none mt-5" data-aos="zoom-in">
             <Image
               src={IMG1}
-              alt=""
+              alt="Upper Level Security"
               style={{ height: "20rem", width: "auto", borderRadius: "20px" }}
             />
           </div>
