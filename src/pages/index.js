@@ -1,6 +1,5 @@
 import Head from "next/head";
 import { Inter } from "next/font/google";
-import styles from "@/styles/Home.module.css";
 import Intro from "@/components/Intro";
 import Mission from "@/components/Mission";
 import Assurance from "@/components/Assurance";
@@ -17,6 +16,13 @@ export default function Home() {
         <title>Upper Level Security</title>
         <meta name="description" content="Upper Level Security Website" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <meta name="theme-color" content="#ffffff" />
+        {/* Chrome, Firefox OS and Opera  */}
+        <meta name="theme-color" content="#ffffff" />
+        {/* Windows Phone  */}
+        <meta name="msapplication-navbutton-color" content="#ffffff" />
+        {/* iOS Safari  */}
+        <meta name="apple-mobile-web-app-status-bar-style" content="#ffffff" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
