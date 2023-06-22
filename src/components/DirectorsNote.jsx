@@ -37,6 +37,7 @@ const DirectorsNote = () => {
               src={Quotation}
               alt="quotation mark"
               className="lg-hide"
+              loading="lazy"
               style={{
                 width: "5rem",
                 filter: "invert(70%)",
@@ -71,6 +72,7 @@ const DirectorsNote = () => {
               src={Quotation}
               alt="quotation mark"
               className="lg-hide"
+              loading="lazy"
               style={{
                 width: "5rem",
                 filter: "invert(70%)",
@@ -88,6 +90,7 @@ const DirectorsNote = () => {
               className="lg-hide"
               src={TeamGraphic}
               alt="Team Graphic"
+              loading="lazy"
               style={{
                 width: "50rem",
                 position: "absolute",

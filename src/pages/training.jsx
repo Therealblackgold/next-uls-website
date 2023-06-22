@@ -47,6 +47,7 @@ const Training = () => {
                 src={Quotations}
                 alt="Upper Level Security"
                 className="quotations"
+                loading="lazy"
               />
               <p className="lead text-dark">
                 Avoiding danger is <br /> no safer in the long <br /> run than
@@ -60,6 +61,7 @@ const Training = () => {
                 src={Logo}
                 alt="Upper Level Security"
                 style={{ width: "20rem" }}
+                loading="lazy"
               />
             </div>
           </div>
@@ -71,6 +73,7 @@ const Training = () => {
                 src={TrainingGraphicChart}
                 alt="Upper Level Security"
                 style={{ width: "30rem" }}
+                loading="lazy"
               />
 
               {/* QUOTE */}
@@ -79,6 +82,7 @@ const Training = () => {
                   src={Quotations}
                   alt="Upper Level Security"
                   className="quotations mb-3"
+                  loading="lazy"
                 />
                 <p className="lead text-dark">
                   Our success depends on <br /> recruiting the right person for{" "}
@@ -106,6 +110,7 @@ const Training = () => {
                 src={TrainingGraphic}
                 alt="Upper Level Security"
                 className="training-graphic-image shadow-lg"
+                loading="lazy"
               />
             </div>
 
@@ -114,6 +119,7 @@ const Training = () => {
                 src={IMG04}
                 alt="Upper Level Security"
                 style={{ borderRadius: "20px" }}
+                loading="lazy"
               />
             </div>
           </div>

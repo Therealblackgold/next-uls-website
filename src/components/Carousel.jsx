@@ -42,7 +42,7 @@ const Carousel = () => {
             src={ULS1}
             className="d-block w-100 c-img"
             alt="Upper Level Security"
-            priority={true}
+            loading="lazy"
           />
           <div className="carousel-caption">
             <h1 className="text-uppercase">upper level security</h1>
@@ -62,6 +62,7 @@ const Carousel = () => {
             src={ULS2}
             className="d-block w-100 c-img"
             alt="Upper Level Security"
+            loading="lazy"
           />
           <div className="carousel-caption">
             <h1 className="text-uppercase">upper level security</h1>
@@ -81,6 +82,7 @@ const Carousel = () => {
             src={ULS3}
             className="d-block w-100 c-img"
             alt="Upper Level Security"
+            loading="lazy"
           />
           <div className="carousel-caption">
             <h1 className="text-uppercase">upper level security</h1>

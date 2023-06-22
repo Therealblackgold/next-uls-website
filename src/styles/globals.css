@@ -235,7 +235,6 @@ section {
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  /* padding-top: 10vh; */
   padding-bottom: 30vh;
   margin-bottom: 0;
 }
@@ -252,43 +251,6 @@ section {
   line-height: 1.3;
   text-shadow: 1px 1px 1px #000;
   padding-left: 0.2rem;
-}
-
-/*
-=================================
- header contact component styles
- ================================
-*/
-
-.header-contact {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  background-color: #222222;
-  color: #222;
-  padding: 1rem;
-  padding-top: 2.5rem;
-  background-image: var(--gold-color);
-}
-
-.header-contact span {
-  font-weight: 700;
-  letter-spacing: 1px;
-}
-
-.header-contact a {
-  font-weight: 700;
-  letter-spacing: 1px;
-  color: #222;
-  text-decoration: none;
-}
-
-.header-contact span i {
-  margin-right: 0.5rem;
-  color: white;
-  background-color: #222;
-  border-radius: 50%;
-  padding: 3px 4px;
 }
 
 /*
@@ -319,49 +281,11 @@ Navigation component styles
 }
 
 .navbar .active {
-  /* background-image: var(--bronze-color) !important; */
   background-image: var(--gold-btn) !important;
-  /* color: white !important; */
-  /* font-weight: bold; */
   color: #222 !important;
   border-radius: 0.5rem;
   width: fit-content;
   padding: 0, 0.2rem;
-}
-
-/*
-============================
-Hero component styles
-============================
-*/
-
-.hero {
-  background: linear-gradient(rgba(255, 255, 255, 0.922), rgb(255, 255, 255)),
-    url("./../assets/bg-network.jpeg");
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
-}
-
-.hero-wrapper {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.hero-left h1 {
-  font-weight: bold;
-}
-
-.hero-right {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-.hero-right img {
-  /* width: 40rem; */
-  padding: 2rem;
 }
 
 /*
@@ -458,7 +382,6 @@ Mission component styles
   right: 28rem;
   bottom: 26rem;
   width: 42rem;
-  /* z-index: 99; */
 }
 
 /*

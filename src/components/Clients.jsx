@@ -148,6 +148,7 @@ const Clients = () => {
                     src={logo}
                     alt="Upper Level Security"
                     style={{ width: "10rem" }}
+                    loading="lazy"
                   />
                 </div>
               ))}
