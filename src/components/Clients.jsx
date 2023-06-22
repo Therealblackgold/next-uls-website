@@ -157,7 +157,9 @@ const Clients = () => {
           {/* closing statement */}
           <div className="row">
             <div className="col-md-8 mx-auto text-center" data-aos="fade-up">
-              <h2 className="sub-heading text-dark">upper level security </h2>
+              <h2 className="sub-heading text-dark text-uppercase">
+                upper level security
+              </h2>
               <p className="lead" data-aos="fade-up">
                 Upper Level Security prides its-self in striving for excellence
                 and its continuous improvement in the security sector. It is

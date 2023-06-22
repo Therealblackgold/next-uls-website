@@ -46,7 +46,7 @@ const Carousel = () => {
           />
           <div className="carousel-caption">
             <h1 className="text-uppercase">upper level security</h1>
-            <p className="text-white">{quote1}</p>
+            <p className="text-white fs-3">{quote1}</p>
             <Link
               href="#contact"
               className="btn btn-primary text-uppercase px-4 py-2 fs-5 mt-5 mb-5"
@@ -66,7 +66,7 @@ const Carousel = () => {
           />
           <div className="carousel-caption">
             <h1 className="text-uppercase">upper level security</h1>
-            <p className="text-white">{quote2}</p>
+            <p className="text-white fs-3">{quote2}</p>
             <Link
               href="#contact"
               className="btn btn-primary text-uppercase px-4 py-2 fs-5 mt-5 mb-5"
@@ -86,7 +86,7 @@ const Carousel = () => {
           />
           <div className="carousel-caption">
             <h1 className="text-uppercase">upper level security</h1>
-            <p className="text-white">{quote3}</p>
+            <p className="text-white fs-3">{quote3}</p>
             <Link
               href="#contact"
               className="btn btn-primary text-uppercase px-4 py-2 fs-5 mt-5 mb-5"

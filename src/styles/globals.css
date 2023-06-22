@@ -1007,4 +1007,5 @@ Footer component styles
 .testimonialsA .carousel-control-next-icon,
 .testimonialsA .carousel-control-prev-icon {
   background-color: var(--primary-color);
+  border-radius: 50%;
 }
