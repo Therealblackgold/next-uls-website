@@ -140,7 +140,7 @@ const Clients = () => {
             </div>
           </div>
 
-          <div className="row text-center mb-5">
+          <div className="row text-center mb-5 mx-0">
             {client_logos &&
               client_logos.map((logo, index) => (
                 <div className="col" key={index}>

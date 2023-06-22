@@ -357,7 +357,6 @@ Mission component styles
   width: 18rem;
   height: 15rem;
   background-image: var(--bronze-light);
-  /* z-index: 99; */
   border-radius: 10rem 10rem 2rem 2rem;
   display: flex;
   align-items: center;

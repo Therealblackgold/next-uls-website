@@ -42,7 +42,7 @@ const Navigation = () => {
   );
 
   // PAGE LINKS
-  const pages = ["services", "gallery", "team", "training"];
+  const pages = ["services", "team", "training"];
 
   const PageLinks = (
     <>
@@ -98,23 +98,17 @@ const Navigation = () => {
             {/* PAGE LINKS */}
             {PageLinks}
           </ul>
-          <div className="nav-contact-details d-none d-lg-block">
-            <Link href="tel:011732 1004" target="new" className="mx-2">
-              <span>
-                <i className="bi bi-telephone-fill mx-1"></i>(011) 732 1004
-              </span>
-            </Link>
-            <Link
-              href="mailto:protected@upperlevelsecurity.co.za"
-              target="new"
-              className="mx-2"
+
+          {/* CONTACT BUTTON */}
+          {pathname === "/" && (
+            <a
+              aria-label="contact Upper Level Security"
+              href="#contact"
+              className="btn btn-outline-primary mx-md-5"
             >
-              <span>
-                <i className="bi bi-envelope-fill mx-1"></i>
-                protected@upperlevelsecurity.co.za
-              </span>
-            </Link>
-          </div>
+              Contact
+            </a>
+          )}
         </div>
       </div>
     </nav>
