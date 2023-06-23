@@ -66,7 +66,6 @@ const Intro = () => {
                 alt="Upper Level Security"
                 style={{
                   height: "15rem",
-                  width: "auto",
                   borderRadius: "20px",
                 }}
               />
@@ -112,7 +111,6 @@ const Intro = () => {
                 alt="Upper Level Security"
                 style={{
                   height: "15rem",
-                  width: "auto",
                   borderRadius: "20px",
                 }}
               />
