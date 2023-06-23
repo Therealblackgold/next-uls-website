@@ -83,7 +83,7 @@ const VipList = () => {
             <Image
               src={IMG08}
               alt="Upper Level Security"
-              style={{ height: "20rem", borderRadius: "20px" }}
+              style={{ height: "15rem", borderRadius: "20px" }}
             />
           </div>
           {/* GRAPHIC */}

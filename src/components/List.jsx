@@ -124,7 +124,7 @@ const List = () => {
             <Image
               src={IMG1}
               alt="Upper Level Security"
-              style={{ height: "20rem", borderRadius: "20px" }}
+              style={{ height: "15rem", borderRadius: "20px" }}
             />
           </div>
         </div>
