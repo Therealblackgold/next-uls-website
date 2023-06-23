@@ -63,7 +63,7 @@ const Intro = () => {
             <div className="col-md d-md-none mt-5 text-center">
               <Image
                 src={IMG20}
-                alt="Upper Level Security"
+                alt="Upper Level Security, Security company in Brakpan"
                 style={{
                   height: "15rem",
                   borderRadius: "20px",
@@ -108,7 +108,7 @@ const Intro = () => {
             <div className="col-md d-md-none text-center">
               <Image
                 src={IMG08}
-                alt="Upper Level Security"
+                alt="Upper Level Security, Security company in Brakpan"
                 style={{
                   height: "15rem",
                   borderRadius: "20px",

@@ -49,7 +49,7 @@ const Clients = () => {
               <Image
                 className="shadow-lg d-none d-lg-block"
                 src={IMG1}
-                alt="Upper Level Security"
+                alt="Upper Level Security, Security company in Brakpan"
                 style={{
                   height: "350px",
                   width: "60rem",
@@ -146,7 +146,7 @@ const Clients = () => {
                 <div className="col" key={index}>
                   <Image
                     src={logo}
-                    alt="Upper Level Security"
+                    alt="Upper Level Security, Security company in Brakpan"
                     style={{ width: "10rem" }}
                     loading="lazy"
                   />

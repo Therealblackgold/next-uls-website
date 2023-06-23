@@ -70,7 +70,7 @@ const Assurance = () => {
             <div className="d-none d-lg-block text-center assurance-graphicx">
               <Image
                 src={Quotes}
-                alt="Upper Level Security"
+                alt="Upper Level Security, Security company in Brakpan"
                 style={{ width: "4rem", filter: "invert(100%)" }}
                 loading="lazy"
               />

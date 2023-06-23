@@ -76,7 +76,7 @@ const Mission = () => {
           >
             <Image
               src={MissionGraphic1}
-              alt="Upper Level Security"
+              alt="Upper Level Security, Security company in Brakpan"
               loading="lazy"
               style={{
                 width: "18rem",
@@ -87,7 +87,7 @@ const Mission = () => {
             <div className="mission-graphic-x">
               <Image
                 src={Ellipse}
-                alt="Upper Level Security"
+                alt="Upper Level Security, Security company in Brakpan"
                 className="ellipse"
                 loading="lazy"
               />

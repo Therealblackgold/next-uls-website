@@ -45,7 +45,7 @@ const Training = () => {
             <div className="col-12 col-lg quote">
               <Image
                 src={Quotations}
-                alt="Upper Level Security"
+                alt="Upper Level Security, Security company in Brakpan"
                 className="quotations"
                 loading="lazy"
               />
@@ -59,7 +59,7 @@ const Training = () => {
             <div className="col-md d-none d-lg-block">
               <Image
                 src={Logo}
-                alt="Upper Level Security"
+                alt="Upper Level Security, Security company in Brakpan"
                 style={{ width: "20rem" }}
                 loading="lazy"
               />
@@ -71,7 +71,7 @@ const Training = () => {
             <div className="col-12 col-md text-center d-none d-md-block">
               <Image
                 src={TrainingGraphicChart}
-                alt="Upper Level Security"
+                alt="Upper Level Security, Security company in Brakpan"
                 style={{ width: "30rem" }}
                 loading="lazy"
               />
@@ -80,7 +80,7 @@ const Training = () => {
               <div className="quote mt-5 mb-5 mb-lg-0 text-start d-none d-lg-block">
                 <Image
                   src={Quotations}
-                  alt="Upper Level Security"
+                  alt="Upper Level Security, Security company in Brakpan"
                   className="quotations mb-3"
                   loading="lazy"
                 />
@@ -108,7 +108,7 @@ const Training = () => {
               </div>
               <Image
                 src={TrainingGraphic}
-                alt="Upper Level Security"
+                alt="Upper Level Security, Security company in Brakpan"
                 className="training-graphic-image shadow-lg"
                 loading="lazy"
               />
@@ -117,7 +117,7 @@ const Training = () => {
             <div className="col-md d-md-none">
               <Image
                 src={IMG04}
-                alt="Upper Level Security"
+                alt="Upper Level Security, Security company in Brakpan"
                 style={{ borderRadius: "20px" }}
                 loading="lazy"
               />

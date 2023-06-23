@@ -13,8 +13,11 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>Upper Level Security</title>
-        <meta name="description" content="Upper Level Security Website" />
+        <title>Security Company in Brakpan</title>
+        <meta
+          name="description"
+          content="Upper Level Security, Security Company in Johannesburg, Gauteng,Brakpan, East Rand"
+        />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <meta name="theme-color" content="#ffffff" />
         {/* Chrome, Firefox OS and Opera  */}

@@ -41,7 +41,7 @@ const Carousel = () => {
           <Image
             src={ULS1}
             className="d-block w-100 c-img"
-            alt="Upper Level Security"
+            alt="Upper Level Security, Security company in Brakpan"
             loading="lazy"
           />
           <div className="carousel-caption">
@@ -61,7 +61,7 @@ const Carousel = () => {
           <Image
             src={ULS2}
             className="d-block w-100 c-img"
-            alt="Upper Level Security"
+            alt="Upper Level Security, Security company in Brakpan"
             loading="lazy"
           />
           <div className="carousel-caption">
@@ -81,7 +81,7 @@ const Carousel = () => {
           <Image
             src={ULS3}
             className="d-block w-100 c-img"
-            alt="Upper Level Security"
+            alt="Upper Level Security, Security company in Brakpan"
             loading="lazy"
           />
           <div className="carousel-caption">

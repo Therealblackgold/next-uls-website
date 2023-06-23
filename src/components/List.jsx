@@ -123,7 +123,7 @@ const List = () => {
           <div className="col-md text-center d-md-none mt-5" data-aos="zoom-in">
             <Image
               src={IMG1}
-              alt="Upper Level Security"
+              alt="Upper Level Security, Security company in Brakpan"
               style={{ height: "15rem", borderRadius: "20px" }}
             />
           </div>
