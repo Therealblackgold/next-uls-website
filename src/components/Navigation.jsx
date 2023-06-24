@@ -103,7 +103,7 @@ const Navigation = () => {
             <a
               aria-label="contact Upper Level Security"
               href="#contact"
-              className="btn btn-outline-primary mx-md-5"
+              className="btn btn-outline-primary mx-md-5 d-none d-lg-block"
             >
               Contact
             </a>

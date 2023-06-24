@@ -13,7 +13,7 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>Security Company in Brakpan</title>
+        <title>Upper Level Security | Security Company in Brakpan</title>
         <meta
           name="description"
           content="Upper Level Security, Security Company in Johannesburg, Gauteng,Brakpan, East Rand"

@@ -19,9 +19,10 @@ const Footer = () => {
                   <i className="bi bi-telephone-fill"></i>(011) 732 1004
                 </span>
               </a>
-              <a href="mailto:mmohau1@gmail.com">
+              <a href="mailto:protected@upperlevelsecurity.co.za">
                 <span>
-                  <i className="bi bi-envelope-fill"></i>mmohau1@gmail.com
+                  <i className="bi bi-envelope-fill"></i>
+                  protected@upperlevelsecurity.co.za
                 </span>
               </a>
               <a href="https://www.upperlevelsecurity.co.za">
