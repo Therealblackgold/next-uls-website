@@ -1,13 +1,11 @@
 // import Link from "next/link";
 import Logo from "../assets/UlsLogo.png";
 import Image from "next/image";
-import { Link as ScrollLink } from "react-scroll";
 import Link from "next/link";
 import { useRouter } from "next/router";
-import { useState } from "react";
 const Navigation = () => {
   const route = useRouter();
-  const { pathname } = route;
+  const { pathname, asPath } = route;
 
   // HASH LINKS
   const sections = [
@@ -22,20 +20,18 @@ const Navigation = () => {
   const HashLinks = (
     <>
       {sections.map((section) => (
-        <li key={section} className="nav-item" style={{ cursor: "pointer" }}>
-          <ScrollLink
+        <li
+          key={section}
+          className={asPath.includes(section) ? "nav-item active" : "nav-item"}
+          style={{ cursor: "pointer" }}
+        >
+          <Link
             className="nav-link px-2"
-            aria-current="page"
-            activeClass="active"
-            to={section}
-            spy={true}
-            smooth={true}
-            offset={-100}
-            duration={500}
-            delay={100}
+            href={`/#${section}`}
+            aria-label={`Upper Level Security ${section}`}
           >
             {section}
-          </ScrollLink>
+          </Link>
         </li>
       ))}
     </>
@@ -46,23 +42,17 @@ const Navigation = () => {
       {sections.map((section) => (
         <li
           key={section}
-          className="nav-item"
+          className={asPath.includes(section) ? "nav-item active" : "nav-item"}
           style={{ cursor: "pointer" }}
           data-bs-dismiss="offcanvas"
         >
-          <ScrollLink
+          <Link
             className="nav-link px-2"
-            aria-current="page"
-            activeClass="active"
-            to={section}
-            spy={true}
-            smooth={true}
-            offset={-100}
-            duration={500}
-            delay={100}
+            href={` /#${section}`}
+            aria-label={`Upper Level Security ${section}`}
           >
             {section}
-          </ScrollLink>
+          </Link>
         </li>
       ))}
     </>
@@ -78,7 +68,11 @@ const Navigation = () => {
           key={page}
           className={pathname.includes(page) ? "nav-item active" : "nav-item"}
         >
-          <Link className="nav-link px-2" href={page}>
+          <Link
+            className="nav-link px-2"
+            href={page}
+            aria-label={`Upper Level Security ${page}`}
+          >
             {page}
           </Link>
         </li>
@@ -94,7 +88,11 @@ const Navigation = () => {
           data-bs-dismiss="offcanvas"
           className={pathname.includes(page) ? "nav-item active" : "nav-item"}
         >
-          <Link className="nav-link px-2" href={page}>
+          <Link
+            className="nav-link px-2"
+            href={page}
+            aria-label={`Upper Level Security ${page}`}
+          >
             {page}
           </Link>
         </li>
@@ -160,7 +158,7 @@ const Navigation = () => {
 
       {/* CANVAS */}
       <div
-        className="offcanvas offcanvas-start w-50"
+        className="offcanvas offcanvas-start w-50 d-lg-none"
         tabIndex={-1}
         id="offcanvasExample"
         aria-labelledby="offcanvasExampleLabel"
