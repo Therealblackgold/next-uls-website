@@ -42,10 +42,11 @@ const Carousel = () => {
             src={ULS1}
             className="d-block w-100 c-img"
             alt="Upper Level Security, Security company in Brakpan"
-            loading="lazy"
+            placeholder="blur"
+            priority
           />
           <div className="carousel-caption">
-            <h1 className="text-uppercase">upper level security</h1>
+            <h1 className="text-uppercase display-2">upper level security</h1>
             <p className="text-white fs-3">{quote1}</p>
             <Link
               href="#contact"
@@ -65,7 +66,7 @@ const Carousel = () => {
             loading="lazy"
           />
           <div className="carousel-caption">
-            <h1 className="text-uppercase">upper level security</h1>
+            <h1 className="text-uppercase display-2">upper level security</h1>
             <p className="text-white fs-3">{quote2}</p>
             <Link
               href="#contact"
@@ -85,7 +86,7 @@ const Carousel = () => {
             loading="lazy"
           />
           <div className="carousel-caption">
-            <h1 className="text-uppercase">upper level security</h1>
+            <h1 className="text-uppercase display-2">upper level security</h1>
             <p className="text-white fs-3">{quote3}</p>
             <Link
               href="#contact"

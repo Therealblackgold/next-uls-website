@@ -280,7 +280,8 @@ Navigation component styles
   text-transform: capitalize;
 }
 
-.navbar .active {
+.navbar .active,
+.offcanvasLinks .active {
   background-image: var(--gold-btn) !important;
   color: #222 !important;
   border-radius: 0.5rem;
@@ -955,6 +956,13 @@ Footer component styles
   }
   .lead {
     font-size: 18px !important;
+  }
+
+  .contact-details span {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 15px;
   }
 }
 

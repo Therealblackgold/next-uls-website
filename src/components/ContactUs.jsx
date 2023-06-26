@@ -51,13 +51,13 @@ const ContactUs = () => {
               {/* DETAILS */}
               <div className="contact-details mt-4">
                 <Link href="https://goo.gl/maps/gDMyQLqHUViYbe1bA" target="new">
-                  <span>
+                  <span className="text-nowrap">
                     <i className="bi bi-house-fill mx-1"></i>8174 Tswako Str,
                     Brakpan, 1548
                   </span>
                 </Link>
                 <Link href="tel:011732 1004" target="new">
-                  <span>
+                  <span className="text-nowrap">
                     <i className="bi bi-telephone-fill mx-1"></i>(011) 732 1004
                   </span>
                 </Link>
@@ -65,13 +65,13 @@ const ContactUs = () => {
                   href="mailto:protected@upperlevelsecurity.co.za"
                   target="new"
                 >
-                  <span>
+                  <span className="text-nowrap">
                     <i className="bi bi-envelope-fill mx-1"></i>
                     protected@upperlevelsecurity.co.za
                   </span>
                 </Link>
                 <Link href="https://www.upperlevelsecurity.co.za" target="new">
-                  <span>
+                  <span className="text-nowrap">
                     <i className="bi bi-globe-central-south-asia mx-1"></i>
                     upperlevelsecurity.co.za
                   </span>
