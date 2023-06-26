@@ -38,9 +38,9 @@ const ContactUs = () => {
             }}
           >
             <div className="col-12 col-md-6 p-lg-5 mb-5 mb-md-0">
-              <h1 className="heading mb-3 text-center text-white mt-5 mt-md-0">
+              <h2 className="heading mb-3 text-center text-white mt-5 mt-md-0">
                 contact <span>us</span>
-              </h1>
+              </h2>
               <p className="text-white">
                 Upper Level Security, provides tailored security solutions. Our
                 experienced team offers surveillance systems, access control,

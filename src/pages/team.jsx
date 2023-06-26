@@ -17,13 +17,6 @@ const Team = () => {
     { name: "Tumi Nkosi", title: "Tactical Operations" },
   ];
 
-  const secondRow = [
-    { name: "Tumelo Mokoena", title: "Sales & Marketing" },
-    { name: "Thabang Mzizi", title: "Human Resource Management" },
-    { name: "Dorah Nkosi", title: "Administration" },
-    { name: "Jerry Mokoena", title: "Financial Administration" },
-  ];
-
   return (
     <AnimatePage>
       <Header />
@@ -89,7 +82,7 @@ const Team = () => {
               <div className="col-md d-none d-md-block">
                 <TeamSquare
                   name="Thabang Mzizi"
-                  title="Uman Resource Management"
+                  title="Human Resource Management"
                 />
                 <TeamSquare name="Dorah Nkosi" title="Administration" />
               </div>

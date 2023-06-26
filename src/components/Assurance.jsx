@@ -15,9 +15,9 @@ const Assurance = () => {
       <div className="container-fluid">
         <div className="row">
           <div className="col-12 col-xl-4 mx-auto px-5" style={{ zIndex: "2" }}>
-            <h1 className="heading text-center mb-5" data-aos="fade-down">
+            <h2 className="heading text-center mb-5" data-aos="fade-down">
               QUALITY <br /> <span>ASSURANCE</span>
-            </h1>
+            </h2>
             <span className="surety">100% Reliable</span>
             <p className="lead mt-3" data-aos="fade-up">
               To constantly provide cutting edge knowledge and information as
