@@ -23,9 +23,9 @@ const Mission = () => {
           {/* VISION */}
           <div className="col-12 col-xl-4 mx-md-3" data-aos="fade-up">
             <div className="vision-content">
-              <h1 className="text-center heading mb-3" data-aos="fade-down">
+              <h2 className="text-center heading mb-3" data-aos="fade-down">
                 our <span>vision</span>
-              </h1>
+              </h2>
               <ul>
                 <li className="lead">
                   To contribute in fighting crime and poverty by creating
@@ -49,12 +49,12 @@ const Mission = () => {
               </ul>
 
               {/* MISSION */}
-              <h1
+              <h2
                 className="text-center heading mt-5 mb-3"
                 data-aos="fade-down"
               >
                 our <span>mission</span>
-              </h1>
+              </h2>
               <ul>
                 <li className="lead">
                   To empower our employees to fulfill their aspirations and
@@ -103,9 +103,9 @@ const Mission = () => {
               right: "8rem",
             }}
           >
-            <h1 className="text-center heading mb-3" data-aos="fade-down">
+            <h2 className="text-center heading mb-3" data-aos="fade-down">
               our <span>philosophy</span>
-            </h1>
+            </h2>
 
             <Image
               src={GraphicBronze}

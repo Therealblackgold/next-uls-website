@@ -17,9 +17,9 @@ const VipList = () => {
     >
       <div className="container">
         <div className="row">
-          <h1 className="heading text-center mb-5">
+          <h2 className="heading text-center mb-5">
             VIP PROTECTION/<span>CLOSE PROTECTION OFFICER</span>
-          </h1>
+          </h2>
           <div className="col-md">
             <p className="lead">
               Our VIP Protection services provide a holistic approach to close
@@ -44,9 +44,9 @@ const VipList = () => {
         </div>
         <div className="row">
           <div className="col-12 col-lg" data-aos="zoom-in">
-            <h4 className="list-heading">
+            <h3 className="list-heading fs-4">
               Execute Protection CPO - Specializing in:
-            </h4>
+            </h3>
             <ul className="list">
               {vipServices1.map((service, index) => (
                 <li key={index} className="lead">
@@ -56,7 +56,9 @@ const VipList = () => {
             </ul>
           </div>
           <div className="col-12 col-lg" data-aos="zoom-in">
-            <h4 className="list-heading">Team Leader – Specializing in:</h4>
+            <h3 className="list-heading fs-4">
+              Team Leader – Specializing in:
+            </h3>
             <ul className="list">
               {vipServices2.map((service, index) => (
                 <li key={index} className="lead">
@@ -68,7 +70,9 @@ const VipList = () => {
         </div>
         <div className="row">
           <div className="col-12 col-lg-4" data-aos="zoom-in">
-            <h4 className="list-heading">High-Threat CPO – Specializing in:</h4>
+            <h3 className="list-heading fs-4">
+              High-Threat CPO – Specializing in:
+            </h3>
             <ul className="list">
               {vipServices3.map((service, index) => (
                 <li key={index} className="lead">

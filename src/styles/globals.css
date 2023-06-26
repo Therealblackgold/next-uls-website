@@ -584,10 +584,11 @@ Team component styles
 }
 
 .team .square {
-  background: var(--bronze-color);
+  /* background: var(--bronze-color); */
+  background: var(--gold-btn);
   width: 13rem;
   height: 8rem;
-  color: white;
+  color: #222;
   display: flex;
   flex-direction: column;
   align-items: center;

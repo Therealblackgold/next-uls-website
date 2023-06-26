@@ -22,9 +22,9 @@ const Intro = () => {
       <div className="container-fluid">
         <div className="row">
           <div className="col-12 col-xl-4 intro-content text-center text-md-start px-lg-5">
-            <h1 className="text-center mb-3 heading">
+            <h2 className="text-center mb-3 heading">
               EXECUTIVE <span>SUMMARY</span>
-            </h1>
+            </h2>
             <p className="lead" data-aos="fade-up">
               Upper Level Security is a 100% blacked owned company with a Level
               three (3) BEE certification.
@@ -79,9 +79,9 @@ const Intro = () => {
             className="col-12 col-xl-5 intro-content text-center text-md-start mt-5 mt-lg-0 px-lg-5"
             style={{ position: "relative" }}
           >
-            <h1 className="heading mb-3 text-center">
+            <h2 className="heading mb-3 text-center">
               our <span>history</span>
-            </h1>
+            </h2>
             <p className="lead" data-aos="fade-up">
               After realizing that in this industry, every company is doing
               things the same way, lack of innovation in the industry was the

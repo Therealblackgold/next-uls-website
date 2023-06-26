@@ -20,13 +20,13 @@ const Training = () => {
           <div className="row">
             {/* CONTENT */}
             <div className="col-12 col-lg-6 text-center">
-              <motion.h1
+              <motion.h2
                 className="heading mb-3"
                 initial={{ y: "-50px" }}
                 animate={{ y: "0px" }}
               >
                 RECRUITMENT & <span>TRAINING</span>
-              </motion.h1>
+              </motion.h2>
               <div className="training-content mb-5">
                 <p className="lead">
                   In order to improve security services, we as a company must be
@@ -95,9 +95,9 @@ const Training = () => {
 
             {/* ANTI-BRIBERY POLICY */}
             <div className="col-md text-center d-none d-md-block">
-              <h1 className="heading text-center mt-5">
+              <h2 className="heading text-center mt-5">
                 ANTI-BRIBERY <span>POLICY</span>
-              </h1>
+              </h2>
               {/* ABSOLUTE MD ONLY IMAGE */}
               <div className="text-center training-graphic-x">
                 <p className="lead text-white">

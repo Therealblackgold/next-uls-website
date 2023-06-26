@@ -37,14 +37,13 @@ const Team = () => {
           {/* PART 2 CONTENT */}
           <div className="row">
             <div className="col-12 col-lg-8 text-center mx-auto">
-              <motion.h1
+              <motion.h2
                 className="heading text-center mb-5"
                 initial={{ y: "-50px" }}
                 animate={{ y: "0px" }}
               >
                 COMPANY MANAGEMENT & <br /> <span>COMPANY STRUCTURE</span>
-              </motion.h1>
-              <h4>We are Upper Level Security!!</h4>
+              </motion.h2>
               <p className="lead" data-aos="fade-up">
                 We are a team of diverse and experienced professionals who
                 function together like a finely tuned engine.
@@ -55,8 +54,8 @@ const Team = () => {
                 integrity and quality.
               </p>
               <center>
-                <h2 className="sub-heading d-none d-md-block">ORGANOGRAM</h2>
-                <h3
+                <h3 className="sub-heading d-none d-md-block">ORGANOGRAM</h3>
+                <h4
                   className="mb-5"
                   style={{
                     background: "gray",
@@ -65,7 +64,7 @@ const Team = () => {
                   }}
                 >
                   UPPER-LEVEL SECURITY
-                </h3>
+                </h4>
               </center>
             </div>
           </div>
@@ -90,7 +89,7 @@ const Team = () => {
               <div className="col-md d-none d-md-block">
                 <TeamSquare
                   name="Thabang Mzizi"
-                  title="uman Resource Management"
+                  title="Uman Resource Management"
                 />
                 <TeamSquare name="Dorah Nkosi" title="Administration" />
               </div>

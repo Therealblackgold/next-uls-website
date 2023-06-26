@@ -6,7 +6,6 @@ const Header = () => {
       <div className="container">
         <div className="row">
           <div className="col-md-7">
-            {/* <h1>Lorem.</h1> */}
             <p className="text-white">
               “Strive not to be a success, but rather to be of value ”
             </p>
