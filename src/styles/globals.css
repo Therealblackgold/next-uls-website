@@ -160,8 +160,8 @@ section {
 }
 
 .btn-primary {
-  /* background: var(--bronze-color); */
-  background: var(--gold-btn) !important;
+  background: var(--primary-color) !important;
+  /* background: var(--gold-btn) !important; */
   /* border: none; */
   border: 2px solid rgba(0, 0, 0, 0.113) !important;
 }
