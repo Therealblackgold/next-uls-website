@@ -46,8 +46,10 @@ const Carousel = () => {
             priority
           />
           <div className="carousel-caption">
-            <h1 className="text-uppercase display-2">upper level security</h1>
-            <p className="text-white fs-3">{quote1}</p>
+            <h1 className="text-uppercase display-2 fw-semibold">
+              upper level security
+            </h1>
+            <p className="text-white fs-3 fst-italic">{quote1}</p>
             <Link
               href="#contact"
               className="btn btn-primary text-uppercase px-4 py-2 fs-5 mt-5 mb-5"
@@ -66,8 +68,10 @@ const Carousel = () => {
             loading="lazy"
           />
           <div className="carousel-caption">
-            <h1 className="text-uppercase display-2">upper level security</h1>
-            <p className="text-white fs-3">{quote2}</p>
+            <h1 className="text-uppercase display-2 fw-semibold">
+              upper level security
+            </h1>
+            <p className="text-white fs-3 fst-italic">{quote2}</p>
             <Link
               href="#contact"
               className="btn btn-primary text-uppercase px-4 py-2 fs-5 mt-5 mb-5"
@@ -86,8 +90,10 @@ const Carousel = () => {
             loading="lazy"
           />
           <div className="carousel-caption">
-            <h1 className="text-uppercase display-2">upper level security</h1>
-            <p className="text-white fs-3">{quote3}</p>
+            <h1 className="text-uppercase display-2 fw-semibold">
+              upper level security
+            </h1>
+            <p className="text-white fs-3 fst-italic">{quote3}</p>
             <Link
               href="#contact"
               className="btn btn-primary text-uppercase px-4 py-2 fs-5 mt-5 mb-5"
