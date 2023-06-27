@@ -11,6 +11,7 @@ const Team = () => {
   useEffect(() => {
     AOS.init({ duration: 2000 });
   }, []);
+
   const firstRow = [
     { name: "Sydney Gumede", title: "Operations Manager" },
     { name: "Richard Mohau Mokoena", title: "Managing Director" },
@@ -56,7 +57,7 @@ const Team = () => {
                     padding: "0.5rem",
                   }}
                 >
-                  UPPER-LEVEL SECURITY
+                  UPPER LEVEL SECURITY TEAM
                 </h4>
               </center>
             </div>
