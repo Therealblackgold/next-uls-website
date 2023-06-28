@@ -872,7 +872,7 @@ Footer component styles
     width: 15rem;
   }
 
-  section,
+  /* section,
   .intro,
   .mission,
   .assurance,
@@ -887,11 +887,11 @@ Footer component styles
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
-  }
+  } */
 
-  .lg-hide {
+  /* .lg-hide {
     display: none !important;
-  }
+  } */
 
   .intro {
     margin-bottom: 2rem;

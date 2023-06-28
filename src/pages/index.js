@@ -26,6 +26,7 @@ export default function Home() {
         <meta name="msapplication-navbutton-color" content="#ffffff" />
         {/* iOS Safari  */}
         <meta name="apple-mobile-web-app-status-bar-style" content="#ffffff" />
+        {/* Google verification */}
         <meta
           name="google-site-verification"
           content="J3NvBHqFM5m-dZwgWKbRShz4I_cMt-IFlTGBoTqeoWk"

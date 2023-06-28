@@ -73,7 +73,7 @@ const Intro = () => {
           </div>
 
           {/* TWO EMPTY DIV */}
-          <div className="col-md-3 lg-hide"></div>
+          <div className="col-md-3"></div>
           {/* THREE */}
           <div
             className="col-12 col-xl-5 intro-content text-center text-md-start mt-5 mt-lg-0 px-lg-5"
@@ -125,7 +125,7 @@ const Intro = () => {
                 src={Logo}
                 alt="Upper Level Security Logo"
                 style={{ width: "8rem" }}
-                className="lg-hide"
+                className=""
               />
             </div>
             <div
