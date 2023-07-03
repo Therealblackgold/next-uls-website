@@ -18,8 +18,8 @@ const Navigation = () => {
   // HASH LINKS
   const sections = [
     "home",
-    "intro",
-    "mission",
+    "about",
+    "direction",
     "assurance",
     "contact",
     "testimonials",

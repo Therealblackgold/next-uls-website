@@ -3,7 +3,7 @@ const ExecutiveSummary = () => {
     '"Definiteness of purpose is the starting point of all achievement"';
 
   return (
-    <section className="executiveSection" id="mission">
+    <section className="executiveSection" id="direction">
       <div className="container">
         {/* VISION */}
         <div className="row shadow mb-3 bg-white">

@@ -18,7 +18,7 @@ const Intro = () => {
   }, []);
 
   return (
-    <section id="intro" className="intro">
+    <section id="about" className="intro">
       <div className="container-fluid">
         <div className="row">
           <div className="col-12 col-xl-4 intro-content text-center text-md-start px-lg-5 py-lg-5">
