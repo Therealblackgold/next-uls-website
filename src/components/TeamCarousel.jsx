@@ -1,5 +1,5 @@
 import { Col, Row } from "react-bootstrap";
-import Logo from "../assets/UlsLogo.png";
+import Logo from "../assets/Logo.png";
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
 import Image from "next/image";
@@ -41,7 +41,7 @@ const TeamCarousel = () => {
       <div className="col-md-12 d-md-none mySlider">
         <div className="row">
           <div className="testimonialsSection">
-            <div className="testimonialsA">
+            <div className="testimonials">
               <div
                 id="carouselExampleControls"
                 className="carousel slide"

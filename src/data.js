@@ -1,13 +1,13 @@
 // CLIENTS
-import CLIENT01 from "./assets/client/Brand1.png";
-import CLIENT02 from "./assets/client/Brand2.png";
-import CLIENT03 from "./assets/client/Brand3.png";
-import CLIENT04 from "./assets/client/Brand4.png";
-import CLIENT05 from "./assets/client/Brand5.png";
-import CLIENT06 from "./assets/client/Brand6.png";
-import CLIENT07 from "./assets/client/Brand7.png";
-import CLIENT08 from "./assets/client/Brand8.png";
-import CLIENT09 from "./assets/client/Brand9.png";
+import CLIENT01 from "./assets/Client1.png";
+import CLIENT02 from "./assets/Client2.png";
+import CLIENT03 from "./assets/Client3.png";
+import CLIENT04 from "./assets/Client4.png";
+import CLIENT05 from "./assets/Client5.png";
+import CLIENT06 from "./assets/Client6.png";
+import CLIENT07 from "./assets/Client7.png";
+import CLIENT08 from "./assets/Client8.png";
+import CLIENT09 from "./assets/Client9.png";
 
 export const client_logos = [
   CLIENT01,

@@ -1,13 +1,12 @@
 import Head from "next/head";
-import { Inter } from "next/font/google";
 import Intro from "@/components/Intro";
-import Mission from "@/components/Mission";
 import Assurance from "@/components/Assurance";
 import ContactUs from "@/components/ContactUs";
 import Clients from "@/components/Clients";
 import Carousel from "@/components/Carousel";
-
-const inter = Inter({ subsets: ["latin"] });
+import ExecutiveSummary from "@/components/ExecutiveSummary";
+import Featured from "@/components/Featured";
+import BackToTop from "@/components/BackToTop";
 
 export default function Home() {
   return (
@@ -35,11 +34,13 @@ export default function Home() {
       </Head>
 
       <Carousel />
+      <Featured />
       <Intro />
-      <Mission />
+      <ExecutiveSummary />
       <Assurance />
       <ContactUs />
       <Clients />
+      <BackToTop />
     </>
   );
 }

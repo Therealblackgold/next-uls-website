@@ -2,16 +2,16 @@
 import AOS from "aos";
 import "aos/dist/aos.css";
 import { useEffect } from "react";
-import Logo from "../assets/UlsLogo.png";
+import Logo from "../assets/Logo.png";
 // import { Link } from "react-router-dom";
-import IMG08 from "../assets/TrainingGraphic-min.jpg";
-import IMG20 from "../assets/mobile/IMG20.png";
+import IMG08 from "../assets/intro-2.png";
+import IMG20 from "../assets/intro-1.png";
 import Link from "next/link";
 import Image from "next/image";
 
 const Intro = () => {
   const string1 =
-    '"I am not a product of my circumstances. <br /> I am a product of my decisions"';
+    '"I am not a product of my circumstances. I am a product of my decisions"';
 
   useEffect(() => {
     AOS.init({ duration: 2000 });
@@ -21,7 +21,7 @@ const Intro = () => {
     <section id="intro" className="intro">
       <div className="container-fluid">
         <div className="row">
-          <div className="col-12 col-xl-4 intro-content text-center text-md-start px-lg-5">
+          <div className="col-12 col-xl-4 intro-content text-center text-md-start px-lg-5 py-lg-5">
             <h2 className="text-center mb-3 heading">
               EXECUTIVE <span>SUMMARY</span>
             </h2>
@@ -50,8 +50,8 @@ const Intro = () => {
               motto and works on a collaborative basis with staff and clients
             </p>
             <Link
-              href="mailto:mmohau1@gmail.com"
-              target="_blank"
+              href="mailto:protected@upperlevelsecurity.co.za"
+              target="new"
               className="btn btn-primary mx-auto mx-md-0"
               style={{ width: "10rem" }}
               data-aos="zoom-in"
@@ -75,10 +75,7 @@ const Intro = () => {
           {/* TWO EMPTY DIV */}
           <div className="col-md-3"></div>
           {/* THREE */}
-          <div
-            className="col-12 col-xl-5 intro-content text-center text-md-start mt-5 mt-lg-0 px-lg-5"
-            style={{ position: "relative" }}
-          >
+          <div className="col-12 col-xl-5 intro-content text-center text-md-start mt-5 mt-lg-0 px-lg-5">
             <h2 className="heading mb-3 text-center">
               our <span>history</span>
             </h2>
@@ -118,7 +115,7 @@ const Intro = () => {
 
             {/* LOGO MD ONLY */}
             <div
-              className="d-none d-md-block"
+              className="d-none"
               style={{ position: "absolute", right: "4rem", top: "-4rem" }}
             >
               <Image
@@ -132,8 +129,8 @@ const Intro = () => {
               className="col-md-8 d-none d-md-block"
               style={{
                 position: "absolute",
-                bottom: "0",
-                right: "20rem",
+                bottom: "11rem",
+                right: "-4rem",
               }}
             >
               <p

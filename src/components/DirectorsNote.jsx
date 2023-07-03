@@ -1,7 +1,8 @@
 import { motion } from "framer-motion";
-import TeamGraphic from "../assets/TeamGraphic-min.png";
-import Logo from "../assets/UlsLogo.png";
-import Quotation from "../assets/qu.png";
+import TeamGraphic2 from "../assets/team-1.png";
+import TeamGraphic1 from "../assets/team-2.png";
+import TeamGraphic3 from "../assets/team-3.png";
+import Quotation from "../assets/qu-marks.png";
 import AOS from "aos";
 import { useEffect } from "react";
 import Image from "next/image";
@@ -10,40 +11,40 @@ const DirectorsNote = () => {
     AOS.init({ duration: 2000 });
   }, []);
   return (
-    <section style={{ position: "relative" }}>
+    <section style={{ position: "relative" }} className="director">
       <div className="container">
         {/* PART 1 CONTENT */}
         <div className="row">
           <div className="col-12 col-lg-10 mx-auto text-center">
-            <motion.h2
+            <motion.h3
               className="sub-heading text-center mb-2"
               initial={{ y: "-50px" }}
               animate={{ y: "0px" }}
             >
               DIRECTORS NOTE
-            </motion.h2>
+            </motion.h3>
             <Image
-              src={Logo}
-              alt=" Upper Level Security Logo"
-              className="lg-hide mt-4"
+              src={Quotation}
+              alt="quotation mark"
+              className="d-none d-lg-flex"
+              loading="lazy"
               style={{
-                width: "10rem",
+                width: "3rem",
                 position: "absolute",
-                top: "2rem",
-                right: "10rem",
+                top: "4rem",
+                left: "25rem",
               }}
             />
             <Image
               src={Quotation}
               alt="quotation mark"
-              className="lg-hide"
+              className="d-none d-lg-flex"
               loading="lazy"
               style={{
-                width: "5rem",
-                filter: "invert(70%)",
+                width: "3rem",
                 position: "absolute",
                 top: "4rem",
-                left: "25rem",
+                right: "25rem",
               }}
             />
             <p className="lead" data-aos="fade-up">
@@ -67,36 +68,38 @@ const DirectorsNote = () => {
               in our domain. Lets join hands to elevate each other and create a
               safer and brighter future together.
             </p>
-            <h3 data-aos="zoom-in">We are Upper Level Security!!</h3>
-            <Image
-              src={Quotation}
-              alt="quotation mark"
-              className="lg-hide"
-              loading="lazy"
-              style={{
-                width: "5rem",
-                filter: "invert(70%)",
-                position: "absolute",
-                top: "27rem",
-                right: "40rem",
-              }}
-            />
+            <h3 className="uls-heading mb-5" data-aos="zoom-in">
+              We are Upper Level Security!!
+            </h3>
           </div>
         </div>
 
-        <div className="row">
-          <div className="col-md d-none d-lg-block">
+        <div className="row text-center">
+          <div className="col-md mx-auto mb-3 mb-lg-0">
             <Image
-              className="lg-hide"
-              src={TeamGraphic}
+              className="rounded"
+              src={TeamGraphic1}
               alt="Team Graphic"
               loading="lazy"
-              style={{
-                width: "50rem",
-                position: "absolute",
-                bottom: "-4rem",
-                left: "35rem",
-              }}
+              // style={{ height: "15rem" }}
+            />
+          </div>
+          <div className="col-md mx-auto mb-3 mb-lg-0">
+            <Image
+              className="rounded"
+              src={TeamGraphic2}
+              alt="Team Graphic"
+              loading="lazy"
+              // style={{ height: "15rem" }}
+            />
+          </div>
+          <div className="col-md mx-auto mb-3 mb-lg-0">
+            <Image
+              className="rounded"
+              src={TeamGraphic3}
+              alt="Team Graphic"
+              loading="lazy"
+              // style={{ height: "15rem" }}
             />
           </div>
         </div>

@@ -1,8 +1,16 @@
 // import Link from "next/link";
-import Logo from "../assets/UlsLogo.png";
+import Logo from "../assets/Logo.png";
 import Image from "next/image";
 import Link from "next/link";
 import { useRouter } from "next/router";
+import Avenir from "@next/font/local";
+
+const avenir = Avenir({
+  src: "../assets/fonts/Avenir_Regular/AvenirRegular.ttf",
+  weights: ["100", "300", "400", "600", "700"],
+  subsets: ["latin"],
+});
+
 const Navigation = () => {
   const route = useRouter();
   const { pathname, asPath } = route;
@@ -103,7 +111,7 @@ const Navigation = () => {
   return (
     <>
       <nav
-        className="navbar navbar-expand-lg bg-body-tertiary fixed-top shadow"
+        className={`navbar navbar-expand-lg bg-body-tertiary fixed-top shadow ${avenir.className}`}
         style={{ zIndex: "99", background: "white" }}
       >
         <div className="container-fluid">
@@ -147,9 +155,9 @@ const Navigation = () => {
               <Link
                 aria-label="contact Upper Level Security"
                 href="#contact"
-                className="btn btn-outline-primary mx-md-5 d-none d-lg-block"
+                className="btn btn-primary mx-md-5 d-none d-lg-block"
               >
-                Contact
+                <i className="bi bi-chevron-right"></i>Contact
               </Link>
             )}
           </div>

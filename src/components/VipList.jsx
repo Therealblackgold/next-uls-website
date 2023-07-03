@@ -1,6 +1,6 @@
 import { vipServices1, vipServices2, vipServices3 } from "../data";
-import VipGraphic from "../assets/VipGraphic-min.png";
-import IMG08 from "../assets/TrainingGraphic-min.jpg";
+import VipGraphic from "../assets/Vip-Graphic.png";
+import IMG08 from "../assets/intro-2.png";
 import { useEffect } from "react";
 import AOS from "aos";
 import Image from "next/image";
@@ -12,7 +12,7 @@ const VipList = () => {
   return (
     <section
       id="vip"
-      className="vip"
+      className="vip-services"
       style={{ marginBottom: "0", position: "relative" }}
     >
       <div className="container">
@@ -44,7 +44,7 @@ const VipList = () => {
         </div>
         <div className="row">
           <div className="col-12 col-lg" data-aos="zoom-in">
-            <h3 className="list-heading fs-4">
+            <h3 className="list-heading text-nowrap">
               Execute Protection CPO - Specializing in:
             </h3>
             <ul className="list">
@@ -56,7 +56,7 @@ const VipList = () => {
             </ul>
           </div>
           <div className="col-12 col-lg" data-aos="zoom-in">
-            <h3 className="list-heading fs-4">
+            <h3 className="list-heading text-nowrap">
               Team Leader – Specializing in:
             </h3>
             <ul className="list">
@@ -70,7 +70,7 @@ const VipList = () => {
         </div>
         <div className="row">
           <div className="col-12 col-lg-4" data-aos="zoom-in">
-            <h3 className="list-heading fs-4">
+            <h3 className="list-heading text-nowrap">
               High-Threat CPO – Specializing in:
             </h3>
             <ul className="list">
@@ -83,11 +83,14 @@ const VipList = () => {
           </div>
 
           {/* MOBILE IMG */}
-          <div className="col-md text-center d-md-none mt-5" data-aos="zoom-in">
+          <div
+            className="col-md-8 mx-auto text-center d-lg-none mt-5"
+            data-aos="zoom-in"
+          >
             <Image
               src={IMG08}
               alt="Upper Level Security, Security company in Brakpan"
-              style={{ height: "15rem", borderRadius: "20px" }}
+              style={{ height: "15rem", borderRadius: "1rem" }}
             />
           </div>
           {/* GRAPHIC */}
@@ -98,7 +101,12 @@ const VipList = () => {
             <Image
               src={VipGraphic}
               alt="Upper Level Security, Security company in Brakpan"
-              style={{ width: "80rem" }}
+              style={{
+                width: "50rem",
+                position: "absolute",
+                bottom: "0",
+                right: "1rem",
+              }}
             />
           </div>
         </div>

@@ -1,7 +1,8 @@
 import Image from "next/image";
-import ULS1 from "../assets/gallery/FM2A2207-min.jpg";
-import ULS2 from "../assets/IntroGraphic-min.png";
-import ULS3 from "../assets/gallery/FM2A2249-min.jpg";
+// import ULS1 from "../assets/cars16.jpg";
+import ULS1 from "../assets/carousel-1.png";
+import ULS2 from "../assets/carousel-2.png";
+import ULS3 from "../assets/carousel-3.jpg";
 import Link from "next/link";
 
 const Carousel = () => {
@@ -45,14 +46,14 @@ const Carousel = () => {
             placeholder="blur"
             priority
           />
-          <div className="carousel-caption">
-            <h1 className="text-uppercase display-2 fw-semibold">
-              upper level security
+          <div className="carousel-caption mb-5">
+            <h1 className="carousel-heading mb-3">
+              upper level <span>security</span>
             </h1>
-            <p className="text-white fs-3 fst-italic">{quote1}</p>
+            <p className="text-white fst-italic">{quote1}</p>
             <Link
               href="#contact"
-              className="btn btn-primary text-uppercase px-4 py-2 fs-5 mt-5 mb-5"
+              className="btn btn-primary text-uppercase  mt-4 mb-5"
             >
               get quote
             </Link>
@@ -67,14 +68,14 @@ const Carousel = () => {
             alt="Upper Level Security, Security company in Brakpan"
             loading="lazy"
           />
-          <div className="carousel-caption">
-            <h1 className="text-uppercase display-2 fw-semibold">
-              upper level security
+          <div className="carousel-caption mb-5">
+            <h1 className="carousel-heading mb-3">
+              upper level <span>security</span>
             </h1>
-            <p className="text-white fs-3 fst-italic">{quote2}</p>
+            <p className="text-white fst-italic">{quote2}</p>
             <Link
               href="#contact"
-              className="btn btn-primary text-uppercase px-4 py-2 fs-5 mt-5 mb-5"
+              className="btn btn-primary text-uppercase  mt-4 mb-5"
             >
               get quote
             </Link>
@@ -89,14 +90,14 @@ const Carousel = () => {
             alt="Upper Level Security, Security company in Brakpan"
             loading="lazy"
           />
-          <div className="carousel-caption">
-            <h1 className="text-uppercase display-2 fw-semibold">
-              upper level security
+          <div className="carousel-caption mb-5">
+            <h1 className="carousel-heading mb-3">
+              upper level <span>security</span>
             </h1>
-            <p className="text-white fs-3 fst-italic">{quote3}</p>
+            <p className="text-white fst-italic">{quote3}</p>
             <Link
               href="#contact"
-              className="btn btn-primary text-uppercase px-4 py-2 fs-5 mt-5 mb-5"
+              className="btn btn-primary text-uppercase  mt-4 mb-5"
             >
               get quote
             </Link>

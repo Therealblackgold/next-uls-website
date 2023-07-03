@@ -1,14 +1,16 @@
 import AnimatePage from "../components/AnimatePage";
-import Quotations from "../assets/qu.png";
-import Logo from "../assets/UlsLogo.png";
-import TrainingGraphic from "../assets/TrainingGraphic-min.jpg";
-import TrainingGraphicChart from "../assets/TrainingGraphicChart.png";
+import TrainingGraphicChart from "../assets/Training-Graphic.png";
 import { motion } from "framer-motion";
 import Header from "../components/Header";
-import IMG04 from "../assets/img-04-min.jpg";
 import Image from "next/image";
+import IMG04 from "../assets/img-04-min.jpg";
+import IMG05 from "../assets/cars05.jpg";
+import IMG06 from "../assets/cars04.jpg";
+import IMG07 from "../assets/cars15.jpg";
+import BackToTop from "@/components/BackToTop";
 
 const Training = () => {
+  const quote = '"Avoiding danger is no safer in the long run than exposure."';
   return (
     <AnimatePage>
       <Header />
@@ -16,10 +18,10 @@ const Training = () => {
         className="training"
         style={{ overflow: "hidden", position: "relative" }}
       >
-        <div className="container-fluid px-md-5">
+        <div className="container">
           <div className="row">
-            {/* CONTENT */}
-            <div className="col-12 col-lg-6 text-center">
+            {/* ROW ONE CONTENT */}
+            <div className="col-lg-6 mx-auto text-center">
               <motion.h2
                 className="heading mb-3"
                 initial={{ y: "-50px" }}
@@ -27,7 +29,7 @@ const Training = () => {
               >
                 RECRUITMENT & <span>TRAINING</span>
               </motion.h2>
-              <div className="training-content mb-5">
+              <div className="training-content">
                 <p className="lead">
                   In order to improve security services, we as a company must be
                   well-structured by ensuring every staff member/ security
@@ -39,84 +41,68 @@ const Training = () => {
                   fully conversant and must abide by the regulations as set out
                   by the Private Security Regulatory Authority.
                 </p>
+                <Image
+                  src={TrainingGraphicChart}
+                  alt="Upper Level Security, Security company in Brakpan"
+                  className="mt-3"
+                  style={{ width: "20rem" }}
+                  loading="lazy"
+                />
               </div>
             </div>
-            {/* QUOTE */}
-            <div className="col-12 col-lg quote">
-              <Image
-                src={Quotations}
-                alt="Upper Level Security, Security company in Brakpan"
-                className="quotations"
-                loading="lazy"
-              />
-              <p className="lead text-dark">
-                Avoiding danger is <br /> no safer in the long <br /> run than
-                exposure.
-              </p>
-            </div>
 
-            {/* LOGO */}
-            <div className="col-md d-none d-lg-block">
+            {/* ROW ONE IMAGE */}
+            <div className="col-8 col-md-6 mx-auto text-center">
               <Image
-                src={Logo}
+                className="rounded mt-3 mt-lg-0"
+                src={IMG04}
                 alt="Upper Level Security, Security company in Brakpan"
-                style={{ width: "20rem" }}
                 loading="lazy"
               />
+              <p className="quote text-dark mt-3">{quote}</p>
             </div>
           </div>
 
           {/* SECOND ROW */}
           <div className="row">
-            <div className="col-12 col-md text-center d-none d-md-block">
-              <Image
-                src={TrainingGraphicChart}
-                alt="Upper Level Security, Security company in Brakpan"
-                style={{ width: "30rem" }}
-                loading="lazy"
-              />
-
-              {/* QUOTE */}
-              <div className="quote mt-5 mb-5 mb-lg-0 text-start d-none d-lg-block">
-                <Image
-                  src={Quotations}
-                  alt="Upper Level Security, Security company in Brakpan"
-                  className="quotations mb-3"
-                  loading="lazy"
-                />
-                <p className="lead text-dark">
-                  Our success depends on <br /> recruiting the right person for{" "}
-                  <br /> the job. It is therefore <br /> imperative that each{" "}
-                  <br /> officer be matched to <br /> the client’s requirements
-                  and <br /> expectations.
-                </p>
-              </div>
-            </div>
-
-            {/* ANTI-BRIBERY POLICY */}
-            <div className="col-md text-center d-none d-md-block">
+            <div className="col-lg-8 mx-auto text-center">
               <h2 className="heading text-center mt-5">
                 ANTI-BRIBERY <span>POLICY</span>
               </h2>
-              {/* ABSOLUTE MD ONLY IMAGE */}
-              <div className="text-center training-graphic-x">
-                <p className="lead text-white">
-                  We give out incentive bonuses to our employees for information
-                  that can lead to convictions/ crime prevention and arrests.
-                  Including but not limited to any form of bribery attempts.
-                </p>
-              </div>
+              <p className="lead">
+                We give out incentive bonuses to our employees for information
+                that can lead to convictions/ crime prevention and arrests.
+                Including but not limited to any form of bribery attempts.
+              </p>
+              <p className="quote text-dark mb-5">
+                Our success depends on recruiting the right person for the job.
+                It is therefore imperative that each officer be matched to the
+                client’s requirements and expectations.
+              </p>
+            </div>
+          </div>
+
+          {/* THIRD ROW */}
+          <div className="row">
+            <div className="col-md-4 text-center mx-auto mb-3 mb-lg-0">
               <Image
-                src={TrainingGraphic}
+                src={IMG07}
                 alt="Upper Level Security, Security company in Brakpan"
-                className="training-graphic-image shadow-lg"
+                style={{ borderRadius: "20px" }}
                 loading="lazy"
               />
             </div>
-
-            <div className="col-md d-md-none">
+            <div className="col-md-4 text-center mx-auto mb-3 mb-lg-0">
               <Image
-                src={IMG04}
+                src={IMG05}
+                alt="Upper Level Security, Security company in Brakpan"
+                style={{ borderRadius: "20px" }}
+                loading="lazy"
+              />
+            </div>
+            <div className="col-md-4 text-center mx-auto mb-3 mb-lg-0">
+              <Image
+                src={IMG06}
                 alt="Upper Level Security, Security company in Brakpan"
                 style={{ borderRadius: "20px" }}
                 loading="lazy"
@@ -125,6 +111,7 @@ const Training = () => {
           </div>
         </div>
       </section>
+      <BackToTop />
     </AnimatePage>
   );
 };

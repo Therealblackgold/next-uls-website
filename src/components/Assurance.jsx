@@ -1,8 +1,12 @@
 import AOS from "aos";
 import "aos/dist/aos.css";
 import { useEffect } from "react";
-import Logo from "../assets/UlsLogo.png";
-import Quotes from "../assets/qu.png";
+import IMG1 from "../assets/cars14.png";
+import IMG2 from "../assets/team05.png";
+import IMG3 from "../assets/team03.png";
+import IMG4 from "../assets/team06.png";
+import IMG5 from "../assets/cars04-min .png";
+import IMG6 from "../assets/cars01.png";
 import Image from "next/image";
 
 const Assurance = () => {
@@ -12,12 +16,17 @@ const Assurance = () => {
 
   return (
     <section className="assurance" id="assurance">
-      <div className="container-fluid">
+      <div className="container">
         <div className="row">
-          <div className="col-12 col-xl-4 mx-auto px-5" style={{ zIndex: "2" }}>
-            <h2 className="heading text-center mb-5" data-aos="fade-down">
-              QUALITY <br /> <span>ASSURANCE</span>
+          <div className="col  text-center">
+            <h2 className="heading mb-5" data-aos="fade-down">
+              QUALITY<span> ASSURANCE</span>
             </h2>
+          </div>
+        </div>
+        <div className="row p-4">
+          {/* ASSURANCE CONTENT */}
+          <div className="col-lg-6 mx-auto">
             <span className="surety">100% Reliable</span>
             <p className="lead mt-3" data-aos="fade-up">
               To constantly provide cutting edge knowledge and information as
@@ -54,29 +63,32 @@ const Assurance = () => {
               that are made on site and that all operations are ran smoothly.
             </p>
           </div>
-          {/* TWO EMPTY DIV */}
-          <div className="col-md-4"></div>
-          <div
-            className="col-md-4 image-wrapper"
-            style={{ zIndex: "2", position: "relative" }}
-          >
-            <Image
-              src={Logo}
-              alt="Upper Level Security Logo"
-              className="assurance-logo d-none d-lg-block"
-              loading="lazy"
-            />
-            {/* ABSOLUTE MD ONLY IMAGE */}
-            <div className="d-none d-lg-block text-center assurance-graphicx">
-              <Image
-                src={Quotes}
-                alt="Upper Level Security, Security company in Brakpan"
-                style={{ width: "4rem", filter: "invert(100%)" }}
-                loading="lazy"
-              />
-              <p className="lead text-white">
-                The only way to do great <br /> work is to love what you do.{" "}
-              </p>
+
+          {/* ASSURANCE GRAPHIC */}
+          <div className="col-lg-6 assurance-box text-center mt-5 mt-lg-0">
+            <div className="row">
+              <div className="col">
+                <Image src={IMG2} alt="Upper Level Security Brakpan" />
+              </div>
+              <div className="col">
+                <Image src={IMG3} alt="Upper Level Security Brakpan" />
+              </div>
+            </div>
+            <div className="row">
+              <div className="col">
+                <Image src={IMG1} alt="Upper Level Security Brakpan" />
+              </div>
+              <div className="col">
+                <Image src={IMG4} alt="Upper Level Security Brakpan" />
+              </div>
+            </div>
+            <div className="row">
+              <div className="col">
+                <Image src={IMG5} alt="Upper Level Security Brakpan" />
+              </div>
+              <div className="col">
+                <Image src={IMG6} alt="Upper Level Security Brakpan" />
+              </div>
             </div>
           </div>
         </div>

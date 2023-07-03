@@ -1,11 +1,19 @@
-import { Col, Container, Row } from "react-bootstrap";
-import Logo from "../assets/UlsLogo.png";
+import Logo from "../assets/Logo.png";
 import Image from "next/image";
 
+import Avenir from "@next/font/local";
+
+const avenir = Avenir({
+  src: "../assets/fonts/Avenir_Regular/AvenirRegular.ttf",
+  weights: ["100", "300", "400", "600", "700"],
+  subsets: ["latin"],
+});
+
 const Footer = () => {
+  const currentYear = new Date().getFullYear();
   return (
-    <footer className="footer">
-      <Container>
+    <footer className={`footer ${avenir.className}`}>
+      <div className="container">
         <div className="row">
           <div className="col-md text-center">
             <Image
@@ -34,10 +42,10 @@ const Footer = () => {
                 </span>
               </a>
             </div>
-            <p>All Rights Reserved UPPER LEVEL SECURITY &copy; </p>
+            <p>All Rights Reserved UPPER LEVEL SECURITY {currentYear} &copy;</p>
           </div>
         </div>
-      </Container>
+      </div>
     </footer>
   );
 };

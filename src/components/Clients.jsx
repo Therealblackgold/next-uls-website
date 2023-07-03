@@ -3,8 +3,8 @@ import "aos/dist/aos.css";
 import { useEffect } from "react";
 import Image from "next/image";
 import { testimonials } from "@/data";
-import IMG1 from "../assets/FM2A2285-min.jpg";
-import Logo from "../assets/UlsLogo.png";
+import IMG1 from "../assets/testimonial-1.png";
+import Logo from "../assets/Logo.png";
 import { client_logos } from "@/data";
 
 // CLIENTS
@@ -15,6 +15,7 @@ const Clients = () => {
   }, []);
   return (
     <section
+      className="testimonialsSection"
       id="testimonials"
       style={{
         overflow: "hidden",
@@ -38,10 +39,10 @@ const Clients = () => {
                 alt="Upper Level Security Logo"
                 className="d-none d-lg-block mt-4"
                 style={{
-                  width: "14rem",
+                  width: "12rem",
                   position: "absolute",
                   top: "13rem",
-                  left: "12rem",
+                  left: "5rem",
                 }}
               />
 
@@ -51,8 +52,8 @@ const Clients = () => {
                 src={IMG1}
                 alt="Upper Level Security, Security company in Brakpan"
                 style={{
-                  height: "350px",
-                  width: "60rem",
+                  height: "330px",
+                  width: "50rem",
                   position: "absolute",
                   right: "0",
                   top: "10rem",
@@ -63,10 +64,10 @@ const Clients = () => {
             </div>
 
             {/* SLID */}
-            <div className="col-md-12 mySlider" style={{ marginTop: "15rem" }}>
+            <div className="col-md-12 mySlider" style={{ marginTop: "10rem" }}>
               <div className="row">
                 <div className="testimonialsSection">
-                  <div className="testimonialsA">
+                  <div className="testimonials">
                     <div
                       id="carouselExampleControls"
                       className="carousel slide"
@@ -98,7 +99,7 @@ const Clients = () => {
                                   </div>
 
                                   <div className="col-md-6">
-                                    <div className="content">
+                                    <div className="content shadow">
                                       <p>{testimonial.comment}</p>
                                     </div>
                                   </div>
@@ -147,7 +148,7 @@ const Clients = () => {
                   <Image
                     src={logo}
                     alt="Upper Level Security, Security company in Brakpan"
-                    style={{ width: "10rem" }}
+                    style={{ width: "8rem" }}
                     loading="lazy"
                   />
                 </div>

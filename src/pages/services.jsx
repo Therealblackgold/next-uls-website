@@ -1,3 +1,4 @@
+import BackToTop from "@/components/BackToTop";
 import AnimatePage from "../components/AnimatePage";
 import Header from "../components/Header";
 import List from "../components/List";
@@ -9,6 +10,7 @@ const Services = () => {
       <Header />
       <List />
       <VipList />
+      <BackToTop />
     </AnimatePage>
   );
 };

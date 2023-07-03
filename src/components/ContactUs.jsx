@@ -16,7 +16,7 @@ const ContactUs = () => {
     }
   };
   return (
-    <section className="contact mt-5" id="contact">
+    <section className="contact" id="contact">
       <div className="container">
         <div className="row mx-0">
           <motion.div
@@ -37,7 +37,7 @@ const ContactUs = () => {
               borderRadius: "20px",
             }}
           >
-            <div className="col-12 col-md-6 p-lg-5 mb-5 mb-md-0">
+            <div className="col-12 col-md-6 p-md-5 mb-5 mb-md-0">
               <h2 className="heading mb-3 text-center text-white mt-5 mt-md-0">
                 contact <span>us</span>
               </h2>
@@ -163,10 +163,7 @@ const ContactUs = () => {
                     )}
                   </div>
 
-                  <button
-                    type="submit"
-                    className="btn btn-lg btn-primary mb-5 w-100"
-                  >
+                  <button type="submit" className="btn btn-primary mb-5 w-100">
                     Submit
                   </button>
                 </div>

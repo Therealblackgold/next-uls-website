@@ -10,7 +10,8 @@ const Header = () => {
               “Strive not to be a success, but rather to be of value ”
             </p>
             <Link
-              href="mailto:mmohau1@gmail.com"
+              href="mailto:protected@upperlevelsecurity.co.za"
+              target="new"
               className="btn btn-sm btn-primary"
             >
               <i className="bi bi-chevron-right"></i>get quote

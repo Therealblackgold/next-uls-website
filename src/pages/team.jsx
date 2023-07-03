@@ -6,6 +6,7 @@ import DirectorsNote from "../components/DirectorsNote";
 import Header from "../components/Header";
 import AOS from "aos";
 import { useEffect } from "react";
+import BackToTop from "@/components/BackToTop";
 
 const Team = () => {
   useEffect(() => {
@@ -32,13 +33,13 @@ const Team = () => {
           <div className="row">
             <div className="col-12 col-lg-8 text-center mx-auto">
               <motion.h2
-                className="heading text-center mb-5"
+                className="heading text-center"
                 initial={{ y: "-50px" }}
                 animate={{ y: "0px" }}
               >
                 COMPANY MANAGEMENT & <br /> <span>COMPANY STRUCTURE</span>
               </motion.h2>
-              <p className="lead" data-aos="fade-up">
+              <p className="lead mb-0" data-aos="fade-up">
                 We are a team of diverse and experienced professionals who
                 function together like a finely tuned engine.
               </p>
@@ -50,11 +51,12 @@ const Team = () => {
               <center>
                 <h3 className="sub-heading d-none d-md-block">ORGANOGRAM</h3>
                 <h4
-                  className="mb-5"
+                  className="uls-heading mb-5"
                   style={{
                     background: "gray",
                     color: "white",
                     padding: "0.5rem",
+                    width: "fit-content",
                   }}
                 >
                   UPPER LEVEL SECURITY TEAM
@@ -99,6 +101,7 @@ const Team = () => {
           <TeamCarousel />
         </div>
       </section>
+      <BackToTop />
     </AnimatePage>
   );
 };
