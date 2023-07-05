@@ -42,7 +42,9 @@ const Footer = () => {
                 </span>
               </a>
             </div>
-            <p>All Rights Reserved UPPER LEVEL SECURITY {currentYear} &copy;</p>
+            <p className="text-nowrap">
+              All Rights Reserved UPPER LEVEL SECURITY {currentYear} &copy;
+            </p>
           </div>
         </div>
       </div>

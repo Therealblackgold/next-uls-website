@@ -7,6 +7,7 @@ import Header from "../components/Header";
 import AOS from "aos";
 import { useEffect } from "react";
 import BackToTop from "@/components/BackToTop";
+import SiteHead from "@/components/SiteHead";
 
 const Team = () => {
   useEffect(() => {
@@ -21,6 +22,7 @@ const Team = () => {
 
   return (
     <AnimatePage>
+      <SiteHead />
       <Header />
       <DirectorsNote />
       <section

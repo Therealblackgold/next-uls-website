@@ -8,11 +8,13 @@ import IMG05 from "../assets/cars05.jpg";
 import IMG06 from "../assets/cars04.jpg";
 import IMG07 from "../assets/cars15.jpg";
 import BackToTop from "@/components/BackToTop";
+import SiteHead from "@/components/SiteHead";
 
 const Training = () => {
   const quote = '"Avoiding danger is no safer in the long run than exposure."';
   return (
     <AnimatePage>
+      <SiteHead />
       <Header />
       <section
         className="training"
