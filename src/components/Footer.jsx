@@ -42,8 +42,9 @@ const Footer = () => {
                 </span>
               </a>
             </div>
-            <p className="text-nowrap">
-              All Rights Reserved UPPER LEVEL SECURITY {currentYear} &copy;
+            <p className="lead">
+              All Rights Reserved <br /> UPPER LEVEL SECURITY {currentYear}{" "}
+              &copy;
             </p>
           </div>
         </div>
