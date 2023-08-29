@@ -1,6 +1,6 @@
 // CLIENTS
 import CLIENT01 from "./assets/Client1.png";
-import CLIENT02 from "./assets/Client2.png";
+// import CLIENT02 from "./assets/Client2.png";
 import CLIENT03 from "./assets/Client3.png";
 import CLIENT04 from "./assets/Client4.png";
 import CLIENT05 from "./assets/Client5.png";
@@ -11,7 +11,7 @@ import CLIENT09 from "./assets/Client9.png";
 
 export const client_logos = [
   CLIENT01,
-  CLIENT02,
+  // CLIENT02,
   CLIENT03,
   CLIENT04,
   CLIENT05,
