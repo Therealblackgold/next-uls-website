@@ -21,6 +21,7 @@ const Navigation = () => {
     "about",
     "direction",
     "assurance",
+    "compliance",
     "contact",
     "testimonials",
   ];
