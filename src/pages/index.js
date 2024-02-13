@@ -7,6 +7,7 @@ import Carousel from "@/components/Carousel";
 import ExecutiveSummary from "@/components/ExecutiveSummary";
 import Featured from "@/components/Featured";
 import BackToTop from "@/components/BackToTop";
+import Compliance from "@/components/Compliance";
 
 export default function Home() {
   return (
@@ -38,6 +39,7 @@ export default function Home() {
       <Intro />
       <ExecutiveSummary />
       <Assurance />
+      <Compliance />
       <ContactUs />
       <Clients />
       <BackToTop />

@@ -141,6 +141,7 @@ img {
 .executiveSection,
 .aboutSection,
 .assurance,
+.compliance,
 .testimonialsSection,
 .services,
 .vip-services,
@@ -915,6 +916,30 @@ Footer component styles
   padding: 0.3rem;
   width: fit-content;
   border: 2px solid var(--primary-color);
+}
+
+/* COMPLIANCE  SECTION */
+.compliance {
+  margin-top: 150px;
+}
+
+/* .compliance img {
+  width: 200px;
+} */
+
+.compliance .lg-img {
+  width: 100px;
+  margin: 10px;
+}
+
+.compliance .md-img {
+  width: 150px;
+  margin: 10px;
+}
+
+.compliance .sm-img {
+  width: 200px;
+  margin: 10px;
 }
 
 /* TESTIMONIALS SECTION */
