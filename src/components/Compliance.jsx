@@ -30,103 +30,134 @@ const Compliance = () => {
               ORGANIZATION<span> COMPLIANCE</span>
             </h2>
             <p className="mb-5">
-              Compliance stands as the bedrock of Upper Level Security, guiding
-              every facet of our operations with unwavering commitment.
-              Upholding stringent adherence to legal statutes and industry
-              regulations, we ensure the protection of sensitive information and
-              the preservation of client trust. From meticulously maintaining
-              licensure and certifications to implementing cutting-edge
-              cybersecurity protocols, every action is meticulously aligned with
-              prevailing standards. Through rigorous audits and continuous
-              improvement initiatives, Upper Level Security remains at the
-              forefront of compliance, proactively identifying and addressing
-              potential vulnerabilities. By prioritizing compliance, we not only
-              mitigate risks but also foster an environment of accountability
-              and reliability, reinforcing our reputation as a beacon of
-              integrity and excellence in the security industry.
+              Compliance is our cornerstone at Upper Level Security, guiding
+              every operation with unwavering commitment. We uphold strict
+              adherence to legal statutes and industry regulations, protecting
+              sensitive information and maintaining client trust. From
+              maintaining certifications to implementing cutting-edge security,
+              we align every action with prevailing standards. Rigorous audits
+              and continuous improvement keep us sharp, identifying and
+              addressing vulnerabilities. Prioritizing compliance isn't just
+              risk management; it's our commitment to accountability and
+              reliability, solidifying our reputation as an industry beacon of
+              integrity and excellence.
             </p>
           </div>
         </div>
 
         {/* Content */}
-        <div className="row">
-          <div className="col text-center">
-            <Image
-              src={IMG1}
-              alt="Upper Level Security Brakpan"
-              className="lg-img"
-            />
+        <div className="row mb-5 g-4">
+          <div className="col">
+            <div className="card  text-center bg-light shadow border-0">
+              <Image
+                src={IMG1}
+                alt="Upper Level Security Brakpan"
+                className="lg-img"
+              />
+            </div>
           </div>
-          <div className="col text-center">
-            <Image
-              src={IMG2}
-              alt="Upper Level Security Brakpan"
-              className="lg-img"
-            />
+          <div className="col">
+            <div className="card text-center bg-light shadow border-0">
+              <Image
+                src={IMG2}
+                alt="Upper Level Security Brakpan"
+                className="lg-img"
+              />
+            </div>
           </div>
-          <div className="col text-center">
-            <Image
-              src={IMG3}
-              alt="Upper Level Security Brakpan"
-              className="md-img"
-            />
+          <div className="col">
+            <div className="card text-center bg-light shadow border-0">
+              <Image
+                src={IMG3}
+                alt="Upper Level Security Brakpan"
+                className="md-img"
+              />
+            </div>
           </div>
-          <div className="col text-center">
-            <Image
-              src={IMG5}
-              alt="Upper Level Security Brakpan"
-              className="md-img"
-            />
+          <div className="col">
+            <div className="card text-center bg-light shadow border-0">
+              <Image
+                src={IMG5}
+                alt="Upper Level Security Brakpan"
+                className="md-img"
+              />
+            </div>
+          </div>
+          <div className="col">
+            <div className="card text-center bg-light shadow border-0">
+              <Image
+                src={IMG10}
+                alt="Upper Level Security Brakpan"
+                className="sm-img"
+              />
+            </div>
           </div>
         </div>
         {/* row 2 */}
-        <div className="row">
-          <div className="col text-center">
-            <Image
-              src={IMG6}
-              alt="Upper Level Security Brakpan"
-              className="sm-img"
-            />
+        <div className="row mb-5 g-4">
+          <div className="col">
+            <div className="card text-center bg-light shadow border-0">
+              <Image
+                src={IMG6}
+                alt="Upper Level Security Brakpan"
+                className="sm-img"
+              />
+            </div>
           </div>
-          <div className="col text-center">
-            <Image
-              src={IMG7}
-              alt="Upper Level Security Brakpan"
-              className="sm-img"
-            />
+          <div className="col">
+            <div className="card text-center bg-light shadow border-0">
+              <Image
+                src={IMG7}
+                alt="Upper Level Security Brakpan"
+                className="sm-img"
+              />
+            </div>
           </div>
-          <div className="col text-center">
-            <Image
-              src={IMG8}
-              alt="Upper Level Security Brakpan"
-              className="md-img"
-            />
+          <div className="col">
+            <div className="card text-center bg-light shadow border-0">
+              <Image
+                src={IMG8}
+                alt="Upper Level Security Brakpan"
+                className="md-img"
+              />
+            </div>
           </div>
-          <div className="col text-center">
-            <Image
-              src={IMG9}
-              alt="Upper Level Security Brakpan"
-              className="lg-img"
-            />
+          <div className="col">
+            <div className="card text-center bg-light shadow border-0">
+              <Image
+                src={IMG9}
+                alt="Upper Level Security Brakpan"
+                className="lg-img"
+              />
+            </div>
+          </div>
+          <div className="col">
+            <div className="card text-center bg-light shadow border-0">
+              <Image
+                src={IMG11}
+                alt="Upper Level Security Brakpan"
+                className="lg-img"
+              />
+            </div>
           </div>
         </div>
         {/* row 3 */}
-        <div className="row mb-5">
-          <div className="col col-lg-4 text-center">
+        {/* <div className="row mb-5">
+          <div className="col col-lg-4 text-center bg-light shadow">
             <Image
               src={IMG10}
               alt="Upper Level Security Brakpan"
               className="sm-img"
             />
           </div>
-          <div className="col col-lg-4 text-center">
+          <div className="col col-lg-4 text-center bg-light shadow">
             <Image
               src={IMG11}
               alt="Upper Level Security Brakpan"
               className="lg-img"
             />
           </div>
-        </div>
+        </div> */}
       </div>
     </section>
   );
