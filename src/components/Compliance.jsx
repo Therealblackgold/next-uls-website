@@ -4,7 +4,6 @@ import { useEffect } from "react";
 import IMG1 from "../assets/uls/01.png";
 import IMG2 from "../assets/uls/02.png";
 import IMG3 from "../assets/uls/03.png";
-import IMG4 from "../assets/uls/04.png";
 import IMG5 from "../assets/uls/05.png";
 import IMG6 from "../assets/uls/06.png";
 import IMG7 from "../assets/uls/07.png";
@@ -141,23 +140,6 @@ const Compliance = () => {
             </div>
           </div>
         </div>
-        {/* row 3 */}
-        {/* <div className="row mb-5">
-          <div className="col col-lg-4 text-center bg-light shadow">
-            <Image
-              src={IMG10}
-              alt="Upper Level Security Brakpan"
-              className="sm-img"
-            />
-          </div>
-          <div className="col col-lg-4 text-center bg-light shadow">
-            <Image
-              src={IMG11}
-              alt="Upper Level Security Brakpan"
-              className="lg-img"
-            />
-          </div>
-        </div> */}
       </div>
     </section>
   );
