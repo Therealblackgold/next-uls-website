@@ -58,6 +58,15 @@ integrity and excellence.`;
           <div className="col">
             <div className="card text-center bg-light shadow border-0">
               <Image
+                src={IMG11}
+                alt="Upper Level Security Brakpan"
+                className="lg-img"
+              />
+            </div>
+          </div>
+          <div className="col">
+            <div className="card text-center bg-light shadow border-0">
+              <Image
                 src={IMG2}
                 alt="Upper Level Security Brakpan"
                 className="lg-img"
@@ -73,15 +82,7 @@ integrity and excellence.`;
               />
             </div>
           </div>
-          <div className="col">
-            <div className="card text-center bg-light shadow border-0">
-              <Image
-                src={IMG5}
-                alt="Upper Level Security Brakpan"
-                className="md-img"
-              />
-            </div>
-          </div>
+
           <div className="col">
             <div className="card text-center bg-light shadow border-0">
               <Image
@@ -133,9 +134,9 @@ integrity and excellence.`;
           <div className="col">
             <div className="card text-center bg-light shadow border-0">
               <Image
-                src={IMG11}
+                src={IMG5}
                 alt="Upper Level Security Brakpan"
-                className="lg-img"
+                className="md-img"
               />
             </div>
           </div>
