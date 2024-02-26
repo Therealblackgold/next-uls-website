@@ -19,6 +19,18 @@ const Compliance = () => {
     AOS.init({ duration: 2000 });
   }, []);
 
+  const statement = `Compliance is our cornerstone at Upper Level Security, guiding
+every operation with unwavering commitment. We uphold strict
+adherence to legal statutes and industry regulations, protecting
+sensitive information and maintaining client trust. From
+maintaining certifications to implementing cutting-edge security,
+we align every action with prevailing standards. Rigorous audits
+and continuous improvement keep us sharp, identifying and
+addressing vulnerabilities. Prioritizing compliance isn't just
+risk management; it's our commitment to accountability and
+reliability, solidifying our reputation as an industry beacon of
+integrity and excellence.`;
+
   return (
     <section className="compliance" id="compliance">
       <div className="container">
@@ -28,19 +40,7 @@ const Compliance = () => {
             <h2 className="heading mb-5" data-aos="fade-down">
               ORGANIZATION<span> COMPLIANCE</span>
             </h2>
-            <p className="mb-5">
-              Compliance is our cornerstone at Upper Level Security, guiding
-              every operation with unwavering commitment. We uphold strict
-              adherence to legal statutes and industry regulations, protecting
-              sensitive information and maintaining client trust. From
-              maintaining certifications to implementing cutting-edge security,
-              we align every action with prevailing standards. Rigorous audits
-              and continuous improvement keep us sharp, identifying and
-              addressing vulnerabilities. Prioritizing compliance isn't just
-              risk management; it's our commitment to accountability and
-              reliability, solidifying our reputation as an industry beacon of
-              integrity and excellence.
-            </p>
+            <p className="mb-5">{statement}</p>
           </div>
         </div>
 
