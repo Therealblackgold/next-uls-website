@@ -6,10 +6,10 @@ import Image from "next/image";
 
 const TeamCarousel = () => {
   const team_members = [
-    {
-      name: "Sydney Gumede",
-      title: "Operations Manager",
-    },
+    // {
+    //   name: "Jhone Doe",
+    //   title: "Operations Manager",
+    // },
     {
       name: "Richard Mohau Mokoena",
       title: "Managing Director",

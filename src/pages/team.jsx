@@ -15,9 +15,11 @@ const Team = () => {
   }, []);
 
   const firstRow = [
-    { name: "Sydney Gumede", title: "Operations Manager" },
+    // { name: "Jhon Sydney Gumede", title: "Operations Manager" },
     { name: "Richard Mohau Mokoena", title: "Managing Director" },
     { name: "Tumi Nkosi", title: "Tactical Operations" },
+    { name: "Tumelo Mokoena", title: "Sales & Marketing" },
+
   ];
 
   return (
@@ -81,21 +83,22 @@ const Team = () => {
           {/* ROW 2 */}
           <center>
             <div className="row mx-auto" data-aos="zoom-in">
-              <div className="col-md d-none d-md-block">
-                <TeamSquare name="Tumelo Mokoena" title="Sales & Marketing" />
-              </div>
+             
               <div className="col-md d-none d-md-block">
                 <TeamSquare
                   name="Thabang Mzizi"
                   title="Human Resource Management"
                 />
-                <TeamSquare name="Dorah Nkosi" title="Administration" />
+                {/* <TeamSquare name="Dorah Nkosi" title="Administration" /> */}
               </div>
               <div className="col-md d-none d-md-block">
                 <TeamSquare
                   name="Jerry Mokoena"
                   title="Financial Administration"
                 />
+              </div>
+              <div className="col-md d-none d-md-block">
+                <TeamSquare name="Dorah Nkosi" title="Administration" />
               </div>
             </div>
           </center>
